@@ -204,7 +204,8 @@
     }
 
     .trix-content a[href^="bullettrain://"] {
-      @apply text-white bg-darkPrimary-500;
+      @apply bg-darkPrimary-500;
+      font-color: #fff !important;
     }
 
     /* CKEditor */
