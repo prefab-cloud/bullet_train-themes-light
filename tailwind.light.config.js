@@ -11,6 +11,7 @@ module.exports = {
     './tmp/gems/*/app/helpers/**/*.rb',
     './tmp/gems/*/app/assets/stylesheets/**/*.css',
     './tmp/gems/*/app/javascript/**/*.js',
+    './app/javascript/**/*.tsx',
   ],
   darkMode: 'class',
   theme: {
