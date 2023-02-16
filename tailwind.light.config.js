@@ -11,8 +11,8 @@ module.exports = {
     './tmp/gems/*/app/helpers/**/*.rb',
     './tmp/gems/*/app/assets/stylesheets/**/*.css',
     './tmp/gems/*/app/javascript/**/*.js',
-    './app/react-ui/**/*.tsx',
-    './app/react-ui/**/*.ts',
+    './react-ui/**/*.tsx',
+    './react-ui/**/*.ts',
   ],
   darkMode: 'class',
   theme: {
