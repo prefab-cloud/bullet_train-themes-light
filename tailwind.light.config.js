@@ -21,7 +21,7 @@ module.exports = {
         xs: ".81rem",
       },
       colors: {
-        test: "#000000",
+        test: { 100: "#000000" },
         "navigation-background-bottom": "#040035",
         "navigation-background-top": "#181B4C",
 
