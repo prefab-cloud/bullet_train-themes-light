@@ -21,9 +21,8 @@ module.exports = {
         xs: ".81rem",
       },
       colors: {
-        test: { 100: "#000000" },
-        "navigation-background-bottom": "#040035",
-        "navigation-background-top": "#181B4C",
+        // "navigation-background-bottom": "#040035",
+        // "navigation-background-top": "#181B4C",
 
         red: {
           400: "#ee8989",
@@ -69,6 +68,8 @@ module.exports = {
           400: "#292b2c",
           DEFAULT: "#000000",
         },
+
+        foo: "#ffffff",
       },
       fontFamily: {
         // "Avenir Next W01", "Proxima Nova W01", "", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
