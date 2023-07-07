@@ -16,16 +16,15 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    colors: {
-      test: "#000000",
-      "navigation-background-bottom": "#040035",
-      "navigation-background-top": "#181B4C",
-    },
     extend: {
       fontSize: {
         xs: ".81rem",
       },
       colors: {
+        test: "#000000",
+        "navigation-background-bottom": "#040035",
+        "navigation-background-top": "#181B4C",
+
         red: {
           400: "#ee8989",
           500: "#e86060",
