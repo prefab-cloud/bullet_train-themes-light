@@ -34,6 +34,8 @@ module.exports = {
         },
 
         primary: {
+          100: "#ECEDFA",
+          200: "#B8BDF3",
           300: "var(--primary-300)",
           400: "var(--primary-400)",
           500: "var(--primary-500)",
