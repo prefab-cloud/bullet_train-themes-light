@@ -18,10 +18,10 @@
 
   --dark-accent-200: #b3bcde;
 
-  --light-gradient-from: #d7bbea;
-  --light-gradient-to: #65a8f1;
-  --dark-gradient-from: #633d7d;
-  --dark-gradient-to: #2867ab;
+  --light-gradient-from: #8b93e9;
+  --light-gradient-to: #3240b7;
+  --dark-gradient-from: #3240b7;
+  --dark-gradient-to: #1e2453;
 }
 
 .theme-blue {
