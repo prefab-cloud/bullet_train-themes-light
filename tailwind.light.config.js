@@ -69,7 +69,6 @@ module.exports = {
           DEFAULT: "#000000",
         },
 
-        foo: "#ffffff",
         "navigation-background-bottom": "#040035",
         "navigation-background-top": "#181B4C",
       },
