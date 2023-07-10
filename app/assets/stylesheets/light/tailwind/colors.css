@@ -1,3 +1,4 @@
+:root,
 .theme-prefab {
   --primary-300: #8b93e9;
   --primary-400: #616ddb;
@@ -23,7 +24,6 @@
   --dark-gradient-to: #2867ab;
 }
 
-:root,
 .theme-blue {
   --primary-300: #95acff;
   --primary-400: #448eef;
