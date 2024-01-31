@@ -3,11 +3,14 @@
 @import "./tailwind/dark-mode";
 @import "./tailwind/colors";
 
-@import './bulk_actions';
+@import "./bulk_actions";
 @import "./electron";
-@import './devise';
-@import './fields';
-@import './turn';
+@import "./devise";
+@import "./fields";
+@import "./turn";
+
+/* prefab fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&family=Golos+Text:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&display=swap");
 
 /* TODO there is probably a better way to do this. */
 .hover-indent-child {
@@ -16,14 +19,14 @@
   }
   &:hover {
     .indent-child {
-      transform:translateX(8px);
+      transform: translateX(8px);
     }
   }
 }
 
 form.button_to {
   @apply inline-block;
-  input[type=submit] {
+  input[type="submit"] {
     @apply bg-transparent;
     &.button {
       @apply bg-primary-500 hover:bg-primary-600;
@@ -32,4 +35,6 @@ form.button_to {
 }
 
 /* hide the first breadcrumb chevron */
-ol.breadcrumb li:first-child svg { display: none; }
+ol.breadcrumb li:first-child svg {
+  display: none;
+}
