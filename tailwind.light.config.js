@@ -82,5 +82,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
+  plugins: [
+    // require("@tailwindcss/forms"), // disabled because the form resets are too opinionated
+    require("@tailwindcss/typography"),
+  ],
 };
