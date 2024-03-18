@@ -1,10 +1,6 @@
-/* tailwind-components */
 @import "./tailwind/components";
-/* tailwind-utilities */
 @import "./tailwind/utilities";
-/* tailwind-dark-mode */
 @import "./tailwind/dark-mode";
-/* tailwind-colors */
 @import "./tailwind/colors";
 
 /* local theme imports */
