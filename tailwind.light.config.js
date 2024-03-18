@@ -83,7 +83,9 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    // require("@tailwindcss/forms"), // disabled because the form resets are too opinionated
+    require("@tailwindcss/forms")({
+      strategy: "class", // only generate classes so we can turn on as needed to avoid conflicts
+    }),
     require("@tailwindcss/typography"),
   ],
 };
