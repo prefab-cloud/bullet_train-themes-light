@@ -1,5 +1,3 @@
-/* tailwind-dark-mode */
-
 @layer utilities {
   .dark {
     /**
@@ -12,11 +10,7 @@
 
     .bg-light-gradient {
       &:before {
-        background: linear-gradient(
-          to bottom right,
-          var(--dark-gradient-from),
-          var(--dark-gradient-to) 100%
-        );
+        background: linear-gradient(to bottom right, var(--dark-gradient-from), var(--dark-gradient-to) 100%);
       }
     }
 
@@ -36,7 +30,7 @@
         @apply border-gray-500;
 
         tr {
-          border-top: 1px solid theme("colors.darkPrimary.500");
+          border-top: 1px solid theme('colors.darkPrimary.500');
         }
 
         td {
@@ -76,8 +70,7 @@
         @apply text-darkPrimary-300 border border-solid border-darkPrimary-900 bg-darkPrimary-800;
 
         &:focus {
-          box-shadow: 0 0 0 1px theme("colors.primary.500"),
-            0 0 0 3px theme("colors.primary.500");
+          box-shadow: 0 0 0 1px theme('colors.primary.500'), 0 0 0 3px theme('colors.primary.500');
         }
       }
     }
@@ -87,11 +80,11 @@
       @apply bg-darkPrimary-800 border-darkPrimary-900;
 
       &::before {
-        border-bottom-color: theme("colors.darkPrimary.900");
+        border-bottom-color: theme('colors.darkPrimary.900');
       }
 
       &::after {
-        border-bottom-color: theme("colors.darkPrimary.800");
+        border-bottom-color: theme('colors.darkPrimary.800');
       }
 
       .calendar-table {
@@ -107,7 +100,7 @@
 
       /* Clear and Apply buttons wrapper */
       .drp-buttons {
-        border-top-color: theme("colors.darkPrimary.900");
+        border-top-color: theme('colors.darkPrimary.900');
         @apply text-darkPrimary-300;
       }
 
@@ -127,9 +120,7 @@
         }
       }
 
-      .hourselect,
-      .minuteselect,
-      .ampmselect {
+      .hourselect, .minuteselect, .ampmselect {
         @apply text-darkPrimary-300 border-darkPrimary-900 bg-darkPrimary-800 !important;
       }
     }
@@ -153,8 +144,7 @@
         @apply bg-darkPrimary-800 border-darkPrimary-900 !important;
       }
 
-      .select2-selection--multiple,
-      .select2-selection--single {
+      .select2-selection--multiple, .select2-selection--single {
         @apply bg-darkPrimary-800 focus:ring-primary-500 border-darkPrimary-900 !important;
         @apply text-darkPrimary-300;
       }
@@ -182,8 +172,7 @@
     trix-editor {
       @apply bg-darkPrimary-800 border-darkPrimary-900 !important;
 
-      &:focus,
-      &:active {
+      &:focus, &:active {
         @apply border-primary-500 !important;
       }
     }
@@ -195,8 +184,7 @@
         @apply opacity-100 !important;
       }
 
-      .trix-button-group,
-      .trix-button {
+      .trix-button-group, .trix-button {
         @apply border-darkPrimary-400 !important;
       }
 
@@ -215,19 +203,18 @@
       @apply bg-darkPrimary-800 border-darkPrimary-900 !important;
     }
 
-    .trix-content a[href^="bullettrain://"]
-    {
+    .trix-content a[href^="bullettrain://"] {
       @apply bg-darkPrimary-500;
       font-color: #fff !important;
     }
 
     /* CKEditor */
     .ck {
-      --ck-color-base-background: theme("colors.darkPrimary.800");
-      --ck-color-base-border: theme("colors.darkPrimary.900");
-      --ck-color-toolbar-background: theme("colors.darkPrimary.800");
-      --ck-color-toolbar-border: theme("colors.darkPrimary.900");
-      --ck-color-text: theme("colors.darkPrimary.300");
+      --ck-color-base-background: theme('colors.darkPrimary.800');
+      --ck-color-base-border: theme('colors.darkPrimary.900');
+      --ck-color-toolbar-background: theme('colors.darkPrimary.800');
+      --ck-color-toolbar-border: theme('colors.darkPrimary.900');
+      --ck-color-text: theme('colors.darkPrimary.300');
 
       .ck-editor__editable:not(.ck-editor__nested-editable) {
         @apply shadow-none;
