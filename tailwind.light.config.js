@@ -87,5 +87,7 @@ module.exports = {
       strategy: "class", // only generate classes so we can turn on as needed to avoid conflicts
     }),
     require("@tailwindcss/typography"),
+    require("tailwindcss-react-aria-components"),
+    require("tailwindcss-animate"),
   ],
 };
