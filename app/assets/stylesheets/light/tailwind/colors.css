@@ -2,14 +2,15 @@
 .theme-prefab {
   --primary-50: #f7f7fd;
   --primary-100: #ecedfa;
-  --primary-200: #c3c6ef;
-  --primary-300: #9aa0e5;
-  --primary-400: #717ada;
+  --primary-200: #c5cdf2;
+  --primary-300: #9babea;
+  --primary-400: #6e81dd;
   --primary-500: #4352d1;
-  --primary-600: #2c3ab4;
-  --primary-700: #222d8b;
-  --primary-800: #182062;
-  --primary-900: #0e1339;
+  --primary-600: #393ec1;
+  --primary-700: #3938a6;
+  --primary-800: #373386;
+  --primary-900: #2e2d6b;
+  --primary-950: #211f42;
 
   --dark-primary-300: #ccd9e8;
   --dark-primary-400: #9facc7;
