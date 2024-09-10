@@ -1,12 +1,15 @@
 :root,
 .theme-prefab {
-  --primary-300: #8b93e9;
-  --primary-400: #616ddb;
+  --primary-50: #f7f7fd;
+  --primary-100: #ecedfa;
+  --primary-200: #c3c6ef;
+  --primary-300: #9aa0e5;
+  --primary-400: #717ada;
   --primary-500: #4352d1;
-  --primary-600: #3240b7;
-  --primary-700: #253193;
-  --primary-800: #202973;
-  --primary-900: #1e2453;
+  --primary-600: #2c3ab4;
+  --primary-700: #222d8b;
+  --primary-800: #182062;
+  --primary-900: #0e1339;
 
   --dark-primary-300: #ccd9e8;
   --dark-primary-400: #9facc7;
