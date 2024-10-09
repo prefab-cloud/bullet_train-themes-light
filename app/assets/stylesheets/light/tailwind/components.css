@@ -195,12 +195,13 @@
     }
   }
 
-  .pagy-nav .page a {
+  /* AY disabled 10-09-24 since we're not using these components and it was causing tailwind compilation errors */
+  /* .pagy-nav .page a {
     @apply button-alternative;
   }
   .pagy-nav .page.active {
     @apply button-alternative;
-  }
+  } */
 
   .pagy-nav .page.prev.disabled {
     @apply hidden;
@@ -209,10 +210,11 @@
     @apply hidden;
   }
 
-  .pagy-nav .page.active {
+  /* AY disabled 10-09-24 since we're not using these components and it was causing tailwind compilation errors */
+  /* .pagy-nav .page.active {
     @apply button;
   }
   .pagy-nav-js .page.active {
     @apply button;
-  }
+  } */
 }
