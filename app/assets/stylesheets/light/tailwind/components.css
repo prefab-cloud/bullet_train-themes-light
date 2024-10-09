@@ -13,7 +13,8 @@
     @apply text-primary-500 hover:text-primary-600 hover:underline;
   }
 
-  b, strong {
+  b,
+  strong {
     @apply font-medium;
   }
 
@@ -43,7 +44,9 @@
     }
   }
 
-  .button, .button-secondary, .button-alternative {
+  .button,
+  .button-secondary,
+  .button-alternative {
     @apply py-2 px-4 border border-transparent rounded-md;
     @apply inline-flex items-center whitespace-nowrap;
     &.button-smaller {
@@ -61,7 +64,8 @@
   }
 
   .btn-toggle {
-    input[type=checkbox], input[type=radio] {
+    input[type="checkbox"],
+    input[type="radio"] {
       display: none;
       &:checked {
         & + button {
@@ -71,7 +75,8 @@
     }
 
     &.btn-color-picker {
-      input[type=checkbox], input[type=radio] {
+      input[type="checkbox"],
+      input[type="radio"] {
         &:checked {
           & + button {
             @apply ring ring-offset-2 rounded-full;
@@ -111,7 +116,8 @@
     because Rails injects hidden fields at the top of our forms. However, we don't need this on `get` forms, because
     no extra element is injected into the form.
     */
-    &[method="post" i], &[method="patch" i] {
+    &[method="post" i],
+    &[method="patch" i] {
       @apply -mt-5;
     }
 
@@ -164,7 +170,8 @@
 
   .box-table {
     .table {
-      & th, & td {
+      & th,
+      & td {
         &:first-child {
           @apply pl-8;
         }
@@ -176,17 +183,23 @@
     }
   }
 
-  .pagy-nav .page a,
+  .pagy-nav .page a {
+    @apply button-alternative;
+  }
   .pagy-nav .page.active {
     @apply button-alternative;
   }
 
-  .pagy-nav .page.prev.disabled,
+  .pagy-nav .page.prev.disabled {
+    @apply hidden;
+  }
   .pagy-nav .page.next.disabled {
     @apply hidden;
   }
 
-  .pagy-nav .page.active,
+  .pagy-nav .page.active {
+    @apply button;
+  }
   .pagy-nav-js .page.active {
     @apply button;
   }
